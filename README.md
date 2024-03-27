@@ -25,3 +25,13 @@
 
 - I was also introduced to **AES (Advanced Encryption Standard)** and **RSA (Rivest-Shamir-Adleman)**, two robust and well-established cryptographic algorithms. <br/>
   I am eager to learn more about them and algorithms in general. 👩🏽‍🏫
+
+### 'Bower' Package Manager Error:
+
+- After installing [Bower](https://bower.io/), I encountered the following error in the command terminal when trying to install [Crypto JS](https://github.com/brix/crypto-js?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library):
+
+```
+'bower' is not recognized as an internal or external command, operable program or batch file.
+```
+
+- Re-installing Bower without using the 'g' flag seems to have resulted in this error.
