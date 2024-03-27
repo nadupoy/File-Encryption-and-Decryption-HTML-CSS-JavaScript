@@ -19,17 +19,13 @@
         <br />
         <input type="text" required="true" maxlength="50" id="message" />
         <div class="buttons">
-          <input type="button" value="ENCRYPT" />
-          <input type="button" value="DECRYPT" />
+          <input type="button" value="ENCRYPT" id="encrypt-button" />
+          <input type="button" value="DECRYPT" id="decrypt-button" />
         </div>
-        <input type="reset" value="RESET" />
+        <input type="reset" value="RESET" id="reset-button" />
       </form>
 
-      <p class="output">
-        Output:
-        <br />
-        <span>placeholder text</span>
-      </p>
+      <p class="output">Output: <span id="output"></span></p>
     </main>
 
     <footer>
