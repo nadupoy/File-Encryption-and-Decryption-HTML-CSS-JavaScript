@@ -70,9 +70,16 @@ input[type="reset"]:hover {
   color: var(--background-app);
 }
 
+.output {
+  margin-top: 8px;
+}
+
+.output {
+  font-weight: 700;
+}
+
 .output > span {
   color: var(--accent-color);
-  visibility: hidden;
 }
 
 footer a {
