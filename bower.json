@@ -1,0 +1,17 @@
+{
+  "name": "file-encryption-and-decryption-html-css-js",
+  "description": "Simple client side text encryption and decryption.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/nadupoy/File-Encryption-and-Decryption-HTML-CSS-JavaScript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
