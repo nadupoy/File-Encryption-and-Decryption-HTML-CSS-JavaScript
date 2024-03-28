@@ -6,6 +6,8 @@
 - [What I Learnt](#what-i-learnt)
   - [Client Side Encryption](#client-side-encryption)
   - ['Bower' Package Manager Error](#bower-package-manager-error)
+  - [The Importance of Frameworks & Technologies](#the-importance-of-frameworks--technologies)
+- [Conclusion](#conclusion)
 
 ## Introduction:
 
@@ -46,3 +48,35 @@
 - Installing Bower without using the 'g' flag seems to have resulted in this error.
   <br/>
   Re-installation using the 'g' flag fixed the error.
+
+### The Importance of Frameworks & Technologies:
+
+- I am now seeing the importance and logic behind tools like React and Node.js.
+  <br/>
+  Building a project from scratch using HTML, CSS and Vanilla JavaScript can get complicated. I ended up encountering quite a number of errors building this way.
+  <br/>
+  These are the latest errors I encountered on my browser console:
+
+```
+Uncaught SyntaxError: import not found: default main.js:3:8
+```
+
+```
+Uncaught TypeError: root is undefined
+    <anonymous> crypto-js.js:12
+    <anonymous> crypto-js.js:14
+crypto-js.js:12:18
+```
+
+- Using packages on the frontend without Node.js has honestly proven to be quite the challenge for me. I am seeing the sense in a tool like Node.js with its built-in modules such as the [Crypto Module](https://www.w3schools.com/nodejs/ref_crypto.asp), which is best suited for this case.
+  <br/>
+  With React, one can built the front-end purely in JavaScript or JSX.
+  <br/>
+  I now see the sense in these technologies from a practical and experiential point of view and not merely a theoretical one. (Talk about a baptism by fire. 🔥 😅)
+
+## Conclusion:
+
+- With that said, it makes practical sense to take a different approach to this project. Therefore I'm leaving this at that . . . for now at least. 🛫
+
+- Consequently, I intend to go fullstack with this project using React and Node.js.<br/>
+  ![alt text](image.png)
